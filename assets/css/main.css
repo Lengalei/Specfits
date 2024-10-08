@@ -2874,21 +2874,35 @@ section,
   background-repeat: no-repeat;
 }
 
+.team{
+  background-image: linear-gradient(rgb(244, 238, 238, 0.5),rgba(254, 251, 251, 0.62)), url('../img/whitebg3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .mainContainer{
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
 .ceoimage{
   width: 40%;
-  height: 350px;
-  border: solid 1px red;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  /* border: solid 1px red; */
+}
+.ceoimage img{
+  width: 100%;
+  height: auto;
+  object-fit:cover ;
+  overflow: hidden;
 }
 .ceoContent{
   width: 40%;
   height: 350px;
-  border: solid 1px red;
+  /* border: solid 1px red; */
+  padding: 10px;
 }
