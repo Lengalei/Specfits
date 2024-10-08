@@ -1274,9 +1274,9 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  background-color: var(--surface-color);
+  background-color: rgba(240, 233, 233, 0.5);
   padding: 40px;
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(97, 97, 152, 0.25) 0px 50px 100px -20px, rgba(173, 61, 193, 0.3) 0px 30px 60px -30px, rgba(194, 39, 189, 0.35) 0px -2px 6px 0px inset;
   height: 100%;
 }
 
@@ -1309,8 +1309,9 @@ section,
 }
 
 .services .service-item h3 {
-  color: color-mix(in srgb, var(--heading-color), transparent 20%);
-  font-weight: 700;
+  /* color: color-mix(in srgb, var(--heading-color), transparent 20%);
+  font-weight: 700; */
+  color: #BF40BF;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
   font-size: 22px;
@@ -2866,7 +2867,13 @@ section,
 .services{
   width: 100%;
   height: auto;
-  background-image: linear-gradient(rgb(244, 238, 238, 0.5),rgba(254, 251, 251, 0.62)), url('../img/africanbg.jpg');
+  background-image:  url('../img/whitebg6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.service-item{
+  background-color: none;
+  backdrop-filter: blur(6px);
 }
 .portfolio{
   background-image: linear-gradient(rgb(244, 238, 238, 0.5),rgba(254, 251, 251, 0.62)), url('../img/portfoliobg.jpg');
@@ -2875,10 +2882,11 @@ section,
 }
 
 .team{
-  background-image: linear-gradient(rgb(244, 238, 238, 0.5),rgba(254, 251, 251, 0.62)), url('../img/whitebg3.jpg');
+  background-image: linear-gradient(rgb(244, 238, 238, 0.5),rgba(254, 251, 251, 0.62)), url('../img/whitebg4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .mainContainer{
   width: 100%;
   height: auto;
@@ -2887,22 +2895,155 @@ section,
   align-items: center;
   justify-content: center;
   gap: 20px;
+  
 }
 .ceoimage{
   width: 40%;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin-bottom: 30px;
+  overflow: hidden;
   /* border: solid 1px red; */
 }
 .ceoimage img{
   width: 100%;
   height: auto;
   object-fit:cover ;
-  overflow: hidden;
+  
 }
 .ceoContent{
   width: 40%;
   height: 350px;
   /* border: solid 1px red; */
   padding: 10px;
+}
+
+
+/* pricing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.training-section {
+  background: linear-gradient(to right, #ff9a9e, #fecfef);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.trainingcontainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trainingsection-title {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.tsection-description {
+  font-size: 1.2rem;
+  color: #f9f9f9;
+  margin-bottom: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.training-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tcard {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 30%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tcard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.tcard-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.beginner-class {
+  background-image: url('../img/training1.jpg');
+}
+
+.intermediate-class {
+  background-image: url('../img/train2.jpg');
+}
+
+.advanced-class {
+  background-image: url('../img/training4.jpg');
+}
+
+.tcard-content {
+  padding: 20px;
+}
+
+.tcard h3 {
+  font-size: 1.8rem;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+.tcard p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #ff6f61;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e0554d;
+}
+
+/* faq */
+.faqimg{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.faqimg img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
