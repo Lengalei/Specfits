@@ -231,12 +231,13 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #26466f;
+  background-color: rgba(146, 74, 168, 0.1);
+  backdrop-filter: blur(8px);
   --heading-color: #ffffff;
   color: var(--default-color);
   transition: all 0.5s;
   z-index: 997;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
 }
 
 .header .topbar {
@@ -322,6 +323,10 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+.navbar{
+  background-color: rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(8px);
+}
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -894,6 +899,9 @@ section,
   width: 100%;
   position: relative;
   padding: 140px 0 0 0;
+  background-image: url('../img/bgbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero .container {
