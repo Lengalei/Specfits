@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Specfit</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title> Specfit </title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/specfitslogo.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/specfitslogo.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Specfits
   * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
-
-  <header id="header" class="header fixed-top">
-
-    <!-- <div class="topbar d-flex align-items-center">
+  <body class="index-page">
+    <header id="header" class="header fixed-top">
+      <!-- <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
           <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
@@ -56,26 +68,28 @@
       </div>
     </div>End Top Bar -->
 
-    <div class="branding d-flex align-items-cente navbar" >
+      <div class="branding d-flex align-items-cente navbar">
+        <div
+          class="container position-relative d-flex align-items-center justify-content-between"
+        >
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <img src="assets/img/specfitslogo.png" alt="logo" />
+          </a>
 
-      <div class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/specfitslogo.png" alt="logo">
-          
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#hero" class="active">Home<br></a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li>
+                <a href="#hero" class="active">Home<br /></a>
+              </li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul> -->
-                <!-- <li><a href="#">Dropdown 1</a></li>
+              <!-- <li><a href="#">Dropdown 1</a></li>
                 <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                   <ul>
                     <li><a href="#">Deep Dropdown 1</a></li>
@@ -90,224 +104,170 @@
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li> -->
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+        </div>
       </div>
+    </header>
 
-    </div>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section accent-background">
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-5 justify-content-between">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2> <img src="./assets/img/welcomegif233.gif" alt=""><span>to </span><span class="accent">Sp<span style="color: #8916ac;">ecf</span>it Designers</span></h2>
-            <p>Where Fashion Meets Art and Events Become Masterpieces</p>
-            <p>Step into the world of elegance, creativity, and innovation. At <strong>Specfit</strong>, we bring your fashion dreams to life and turn events into memorable experiences.</p>
-            <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
-              <!-- portfolio -->
+    <main class="main">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="slider-container">
+          <!-- Slider -->
+          <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <div class="image-container">
+                <img src="assets/img/suit2.jpg" alt="Image 1" />
+                <div class="text-overlay">
+                  <h3>Refreshing Design</h3>
+                  <p>Enveloping Coats</p>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="image-container">
+                <img src="./assets/img/dress12.jpg" alt="Image 2" />
+                <div class="text-overlay">
+                  <h3>Fine Fabric</h3>
+                  <p>Down Jackets</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="image-container">
+                <img src="images/slide2a.jpg" alt="Image 3" />
+                <div class="text-overlay">
+                  <h3>Bold Look</h3>
+                  <p>Blazers</p>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="image-container">
+                <img src="images/slide2b.jpg" alt="Image 4" />
+                <div class="text-overlay">
+                  <h3>Casual Fit</h3>
+                  <p>Jackets</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img src="./assets/img/specfit122.png" class="img-fluid" alt="">
-          </div>
+          <!-- Navigation Arrows -->
+          <button class="nav-arrow left-arrow">&lt;</button>
+          <button class="nav-arrow right-arrow">&gt;</button>
         </div>
-      </div>
-
-      
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-
-    <div class="aboutpic">
-      <img src="./assets/img/dresspic.png" alt="">
-    </div>
-
-    <div class="aboutContent">
-      <h3>WHY CHOOSE US?</h3>
-      <p>We design everything according to your unique needs and style. From fabric selection to final presentation, we ensure the highest level of craftsmanship.</p>
-      <p>
-        <ul>Customized Services</ul>
-        <ul>Professional Quality</ul>
-        <ul>Comprehensive Training</ul>
-        <ul>Experienced Team</ul>
-      </p>
-      
-    </div>
-
-
-    
-    </section><!-- /About Section -->
-
-<section id="hero" class="hero section ">
-    <div class="icon-boxes position-relative heroLower" data-aos="fade-up" data-aos-delay="200">
-        <div class="container position-relative">
-          <div class="row gy-4 mt-5">
-
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-               <img src="./assets/img/dress1.jpg" alt="" class="img-fluid iconimage">
-                
-              </div>
-            </div><!--End Icon Box -->
-
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-                <img src="./assets/img/dress8.jpg" alt="" class="img-fluid iconimage">
-                
-              </div>
-            </div><!--End Icon Box -->
-
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-                <img src="./assets/img/dress4.jpg" alt="" class="img-fluid iconimage">
-              </div>
-            </div><!--End Icon Box -->
-
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-                <img src="./assets/img/dress11.jpg" alt="" class="img-fluid iconimage">
-              </div>
-            </div><!--End Icon Box -->
-
-          </div>
+        <!-- Scroll Down Icon -->
+        <div class="scroll-down">
+          <span class="icon"></span>
+          <!-- <p>Scroll Down</p> -->
         </div>
-      </div>
-</section>
+      </section>
+      <!-- /Hero Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+      <!-- About Section -->
+      <section class="features-section">
+        <!-- Top Part -->
+        <div class="top-heading">
+          <div class="scissors-icon">
+            <img src="./assets/img/scissorsup (2).png" alt="Scissors Icon" />
           </div>
+          <p class="small-heading">GLOBAL BRAND</p>
+          <h1 class="main-heading">Fashion & Design Company</h1>
         </div>
 
-      </div>
-
-    </section><!-- /Clients Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 align-items-center">
-
-          <div class="col-lg-5">
-            <img src="assets/img/stats-img.svg" alt="" class="img-fluid">
-          </div>
-
-          <div class="col-lg-7">
-
-            <div class="row gy-4">
-
-              <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> <span></span></p>
-                  </div>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-journal-richtext flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> <span>t</span></p>
-                  </div>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-headset flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Outfits Designed</strong> <span></span></p>
-                  </div>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-people flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Events Decorated</strong> <span></span></p>
-                  </div>
-                </div>
-              </div><!-- End Stats Item -->
-
+        <!-- Features Section -->
+        <div class="features-container">
+          <!-- Feature 1 -->
+          <div class="feature-box">
+            <div class="icon">
+              <img src="./assets/img/scissorsleft.png (2).png" alt="Icon" />
             </div>
-
+            <h3>Cutting-Edge Technology</h3>
+            <p>Nec ullamcorper sit amet risus nullam eget felis eget nunc.</p>
+            <div
+              class="hover-image"
+              style="background-image: url('./assets/img/dress11.jpg')"
+            ></div>
           </div>
 
+          <!-- Feature 2 -->
+          <div class="feature-box">
+            <div class="icon">
+              <img src="./assets/img/knitwool.png (2).png" alt="Icon" />
+            </div>
+            <h3>2500 Luxurious Fabrics</h3>
+            <p>Duis tristique sollicitudin nibh sit amet.</p>
+            <div
+              class="hover-image"
+              style="background-image: url('./assets/img/specfit122.png')"
+            ></div>
+          </div>
         </div>
+      </section>
 
-      </div>
+     
 
-    </section><!-- /Stats Section -->
+      <!-- Stats Section -->
+          <!-- Statistics Section -->
+          <section class="statistics-section">
+            <div class="content-container">
+              <!-- Left Image -->
+              <div class="left-image">
+                <img src="./assets/img/stats.jpg" alt="Professional Image" />
+              </div>
 
-    <!-- Call To Action Section -->
-    <!-- <section id="call-to-action" class="call-to-action section dark-background">
+              <!-- Center Content -->
+              <div class="center-content">
+                <h2>
+                  We comprehend your style needs
+                </h2>
+                <button class="cta-button">Shop The Sales</button>
+                <div class="statistics">
+                  <div class="stat-item">
+                    <h3>49+</h3>
+                    <p>Tailors</p>
+                  </div>
+                  <div class="stat-item">
+                    <h3>21M</h3>
+                    <p>Reviews</p>
+                  </div>
+                  <div class="stat-item">
+                    <h3>56k</h3>
+                    <p>Bookings</p>
+                  </div>
+                  <div class="stat-item">
+                    <h3>774+</h3>
+                    <p>Clients</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom Right Section -->
+              <div class="bottom-right">
+                <div class="circle-gallery">
+                  <img src="./assets/img/statsprof1.jpg" alt="Person 1" />
+                  <img src="./assets/img/statsprof2.jpg" alt="Person 2" />
+                  <img src="./assets/img/statsprof3.jpg" alt="Person 3" />
+                  <img src="./assets/img/statsprof4.jpg" alt="Person 4" />
+                </div>
+                <div class="bottom-image">
+                  <img
+                    src="./assets/img/dress3.jpg"
+                    alt="Fashion Professional"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </body>
+      </html>
+      <!-- /Stats Section -->
+
+      <!-- Call To Action Section -->
+      <!-- <section id="call-to-action" class="call-to-action section dark-background">
 
       <div class="container">
         <img src="assets/img/cta-bg.jpg" alt="">
@@ -325,501 +285,858 @@
 
     </section>/Call To Action Section -->
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p> we blend creativity and craftsmanship to bring your vision to life, whether you’re looking for custom fashion, elegant décor, or hands-on training</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <h3>1. Fashion & Design</h3>
-              <p>At Specfit, fashion is more than just clothing; it’s an expression of who you are. Our expert designers work closely with you to create personalized, high-quality pieces tailored to your unique style and measurements.</p>
-              <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>2. Curtain Making</h3>
-              <p>Transform your home or office with our custom curtain-making services. We offer a wide range of fabrics, styles, and colors to suit any décor. Whether you’re looking for blackout curtains, sheer drapes, or something in between, we handle everything from design to installation to create a seamless fit.</p>
-              <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <h3>3. Events Decoration</h3>
-              <p>Bring your events to life with our tailored decoration services. We design and set up stunning décor for weddings, corporate events, birthday parties, and more. With an eye for detail and a passion for creativity, our team works to make your event memorable and unique.</p>
-              <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <h3>4. Bed Nets</h3>
-              <p>Our beautifully crafted bed nets add a touch of luxury to your bedroom while providing protection from insects. Available in various styles and sizes, our bed nets blend function and aesthetics, giving you a restful and worry-free sleep.</p>
-              <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <h3>5. Training Lessons</h3>
-              <p>We offer comprehensive training courses for those interested in fashion design, curtain making, and event decoration. Our hands-on lessons are designed for beginners and advanced learners alike, providing practical skills and industry insights to kickstart your career or hobby.</p>
-              <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div><!-- End Service Item -->
-
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Services</h2>
+          <p>
+            we blend creativity and craftsmanship to bring your vision to life,
+            whether you’re looking for custom fashion, elegant décor, or
+            hands-on training
+          </p>
         </div>
+        <!-- End Section Title -->
 
-      </div>
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <h3>1. Fashion & Design</h3>
+                <p>
+                  At Specfit, fashion is more than just clothing; it’s an
+                  expression of who you are.
+                </p>
+                <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-    </section><!-- /Services Section -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <h3>2. Curtain Making</h3>
+                <p>
+                  Transform your home or office with our custom curtain-making
+                  services. 
+                </p>
+                <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <h3>3. Events Decoration</h3>
+                <p>
+                  Bring your events to life with our tailored decoration
+                  services.
+                </p>
+                <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <h3>4. Bed Nets</h3>
+                <p>
+                  Our beautifully crafted bed nets add a touch of luxury to your
+                  bedroom while providing protection from insects.
+                </p>
+                <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <h3>5. Training Lessons</h3>
+                <p>
+                  We offer comprehensive training courses for those interested
+                  in fashion design, curtain making, and event decoration. 
+                </p>
+                <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <h3>Dolori Architecto</h3>
+                <p>
+                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
+                  neque non et debitis iure. Corrupti recusandae ducimus enim.
+                </p>
+                <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div></div>
+
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
                 },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 10
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 10
+                  }
                 }
               }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Carolyne Kuria</h3>
+                  <h4>Client</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >The professionalism and creativity that Specfits brings
+                      to event decorations are unmatched.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Virginia Wambui</h3>
+                  <h4>Client</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >I took the curtain-making class at Specfits, and it was
+                      such a rewarding experience.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Nancy Mbugua</h3>
+                  <h4>Store Owner</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >I’ve always struggled to find curtains that match my home
+                      décor until I found Specfits.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Emmah Mwangi</h3>
+                  <h4>Client</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >The team at Specfits designed my wedding dress, and it
+                      was beyond my wildest dreams!</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >The bed net I ordered from Specfit not only fits
+                      perfectly but also adds a stylish touch to my bedroom.
+                      </span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
-
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Gallery of Creations</h2>
+          <p>
+            Take a glimpse at our latest fashion collections and event designs.
+            From chic runway pieces to breathtaking décor setups, we take pride
+            in every project we undertake.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Dresses</li>
+              <li data-filter=".filter-product">curtains</li>
+              <li data-filter=".filter-branding">Nets</li>
+              <li data-filter=".filter-books">Men suits</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/app-1.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="./assets/img/dress7.jpg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >App 1</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/product-1.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="./assets/img/curtain.jpg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Product 1</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/branding-1.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/net1.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Branding 1</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/books-1.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/suit1.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Books 1</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/app-2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/dress12.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >App 2</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/product-2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/curtain2.jpg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Product 2</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/branding-2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/net3.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Branding 2</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/books-2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/suit2.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Books 2</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/app-3.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/dress5.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >App 3</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/product-3.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/curtain3.jpg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Product 3</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/branding-3.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/net1.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Branding 3</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+              >
+                <div class="portfolio-content h-100">
+                  <a
+                    href="assets/img/portfolio/books-3.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/suit4.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html" title="More Details"
+                        >Books 3</a
+                      >
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
+
+      <!-- Team Section -->
+      <section id="team" class="team section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>CEO AND FOUNDER</h2>
         </div>
 
-      </div>
+        <div class="mainContainer">
+          <div class="ceoimage"><img src="./assets/img/ceo.jpg" alt="" /></div>
 
-    </section><!-- /Testimonials Section -->
+          <div class="ceoContent">
+            <h4>ALICE NJUGUNA</h4>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+            <p>
+              The visionary behind Specfits, brings over 10 years of experience
+              and passion in the world of fashion and design. With a natural eye
+              for detail and a commitment to excellence, Alice Njuguna has built
+              [Brand Name] from a small idea into a thriving business that
+              touches lives and transforms events, homes, and wardrobes.
+            </p>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Gallery of Creations</h2>
-        <p>Take a glimpse at our latest fashion collections and event designs. From chic runway pieces to breathtaking décor setups, we take pride in every project we undertake. </p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Dresses</li>
-            <li data-filter=".filter-product">curtains</li>
-            <li data-filter=".filter-branding">Nets</li>
-            <li data-filter=".filter-books">Men suits</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="./assets/img/dress7.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">App 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="./assets/img/curtain.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/net1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/suit1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/dress12.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/curtain2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/net3.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Branding 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/suit2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/dress5.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">App 3</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/curtain3.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 3</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/net1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Branding 3</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/suit4.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 3</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
+            <p>
+              From a young age, Alice Njuguna was inspired by the power of
+              creativity and self-expression, seeing fashion as a way to make
+              people feel confident and special. This passion drove her to
+              master the craft of design, studying under renowned designers and
+              gaining hands-on experience in styling, textile selection, and
+              event décor.
+            </p>
+          </div>
         </div>
+      </section>
+      <!-- /Team Section -->
 
-      </div>
+      <!-- Pricing Section -->
+      <section class="training-section">
+        <div class="trainingcontainer">
+          <h2 class="trainingsection-title">
+            Elevate Your Fashion Design Skills
+          </h2>
+          <p class="tsection-description">
+            Join our cutting-edge fashion training classes and transform your
+            passion into a profession! Whether you’re a beginner or an expert,
+            we have a course tailored just for you.
+          </p>
 
-    </section><!-- /Portfolio Section -->
+          <div class="training-cards">
+            <div class="tcard">
+              <div class="tcard-image beginner-class"></div>
+              <div class="tcard-content">
+                <h3>Beginner’s Essentials</h3>
+                <p>
+                  Start your journey with hands-on training in basic stitching,
+                  sketching, and garment construction.
+                </p>
+                <a href="#" class="btn">Join Now</a>
+              </div>
+            </div>
 
-    <!-- Team Section -->
-    <section id="team" class="team section">
+            <div class="tcard">
+              <div class="tcard-image intermediate-class"></div>
+              <div class="tcard-content">
+                <h3>Intermediate Mastery</h3>
+                <p>
+                  Enhance your skills by learning to create stylish custom
+                  pieces using professional techniques.
+                </p>
+                <a href="#" class="btn">Join Now</a>
+              </div>
+            </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>CEO AND FOUNDER</h2>
-      </div>
-
-      <div class="mainContainer">
-        <div class="ceoimage"><img src="./assets/img/ceo.jpg" alt=""></div>
-
-        <div class="ceoContent">
-          <h4>ALICE NJUGUNA</h4>
-
-          <P> The visionary behind Specfits, brings over 10 years of experience and passion in the world of fashion and design. With a natural eye for detail and a commitment to excellence, Alice Njuguna has built [Brand Name] from a small idea into a thriving business that touches lives and transforms events, homes, and wardrobes.</P>
-
-          <P>From a young age, Alice Njuguna was inspired by the power of creativity and self-expression, seeing fashion as a way to make people feel confident and special. This passion drove her to master the craft of design, studying under renowned designers and gaining hands-on experience in styling, textile selection, and event décor.</P>
-
-        </div>
-      </div>
-    </section><!-- /Team Section -->
-
-    <!-- Pricing Section -->
-    <section class="training-section">
-  <div class="trainingcontainer">
-    <h2 class="trainingsection-title">Elevate Your Fashion Design Skills</h2>
-    <p class="tsection-description">
-      Join our cutting-edge fashion training classes and transform your passion into a profession! Whether you’re a beginner or an expert, we have a course tailored just for you.
-    </p>
-
-    <div class="training-cards">
-      <div class="tcard">
-        <div class="tcard-image beginner-class">
-      
-        </div>
-        <div class="tcard-content">
-          <h3>Beginner’s Essentials</h3>
-          <p>Start your journey with hands-on training in basic stitching, sketching, and garment construction.</p>
-          <a href="#" class="btn">Join Now</a>
-        </div>
-      </div>
-
-      <div class="tcard">
-        <div class="tcard-image intermediate-class"></div>
-        <div class="tcard-content">
-          <h3>Intermediate Mastery</h3>
-          <p>Enhance your skills by learning to create stylish custom pieces using professional techniques.</p>
-          <a href="#" class="btn">Join Now</a>
-        </div>
-      </div>
-
-      <div class="tcard">
-        <div class="tcard-image advanced-class"></div>
-        <div class="tcard-content">
-          <h3>Advanced Couture</h3>
-          <p>Master advanced tailoring, draping, and design concepts for high-fashion creations.</p>
-          <a href="#" class="btn">Join Now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="content px-xl-5">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <div class="faqimg"><img src="./assets/img/faq.jpg" alt=""></div>
+            <div class="tcard">
+              <div class="tcard-image advanced-class"></div>
+              <div class="tcard-content">
+                <h3>Advanced Couture</h3>
+                <p>
+                  Master advanced tailoring, draping, and design concepts for
+                  high-fashion creations.
+                </p>
+                <a href="#" class="btn">Join Now</a>
+              </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="faq-container">
-              <div class="faq-item faq-active">
-                <h3><span class="num">1.</span> <span>What types of fashion and design services do you offer?</span></h3>
-                <div class="faq-content">
-                  <p>We specialize in custom clothing, accessories, and fashion consultancy. Whether you’re looking for tailored outfits, unique accessories, or help styling for a special event, our team is here to bring your vision to life.</p>
+      <!-- Faq Section -->
+      <section id="faq" class="faq section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="content px-xl-5">
+                <h3>
+                  <span>Frequently Asked </span><strong>Questions</strong>
+                </h3>
+                <div class="faqimg">
+                  <img src="./assets/img/faq.jpg" alt="" />
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">2.</span> <span>Can I customize the curtains for my home or office?</span></h3>
-                <div class="faq-content">
-                  <p>Absolutely! We offer fully customizable curtain-making services. You can choose from a wide range of fabrics, styles, and colors to match your space. Our team will also measure and install the curtains to ensure they fit perfectly.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">3.</span> <span>Do you provide event decoration services for all types of events?</span></h3>
-                <div class="faq-content">
-                  <p>Yes! We cater to weddings, corporate events, parties, and more. Whether you're looking for elegant, modern, or thematic décor, we will work with you to create a stunning setup that fits your event’s vision.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">4.</span> <span>How do I choose the right bed net for my space?</span></h3>
-                <div class="faq-content">
-                  <p>We offer a variety of bed nets in different sizes and styles. Our team will help you select a net that not only fits your bed but also complements your bedroom décor. All our nets are designed to provide both aesthetic appeal and effective protection from insects.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">5.</span> <span>What training lessons do you offer, and who can join?</span></h3>
-                <div class="faq-content">
-                  <p>We offer courses in fashion design, curtain making, and event decoration. Our lessons are open to everyone, from beginners to those looking to refine their skills. The courses are hands-on, and we provide all the necessary materials to help you learn effectively.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
+              </div>
             </div>
 
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3>
+                    <span class="num">1.</span>
+                    <span
+                      >What types of fashion and design services do you
+                      offer?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      We specialize in custom clothing, accessories, and fashion
+                      consultancy. Whether you’re looking for tailored outfits,
+                      unique accessories, or help styling for a special event,
+                      our team is here to bring your vision to life.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">2.</span>
+                    <span
+                      >Can I customize the curtains for my home or office?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Absolutely! We offer fully customizable curtain-making
+                      services. You can choose from a wide range of fabrics,
+                      styles, and colors to match your space. Our team will also
+                      measure and install the curtains to ensure they fit
+                      perfectly.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">3.</span>
+                    <span
+                      >Do you provide event decoration services for all types of
+                      events?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Yes! We cater to weddings, corporate events, parties, and
+                      more. Whether you're looking for elegant, modern, or
+                      thematic décor, we will work with you to create a stunning
+                      setup that fits your event’s vision.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">4.</span>
+                    <span>How do I choose the right bed net for my space?</span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      We offer a variety of bed nets in different sizes and
+                      styles. Our team will help you select a net that not only
+                      fits your bed but also complements your bedroom décor. All
+                      our nets are designed to provide both aesthetic appeal and
+                      effective protection from insects.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">5.</span>
+                    <span
+                      >What training lessons do you offer, and who can
+                      join?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      We offer courses in fashion design, curtain making, and
+                      event decoration. Our lessons are open to everyone, from
+                      beginners to those looking to refine their skills. The
+                      courses are hands-on, and we provide all the necessary
+                      materials to help you learn effectively.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- /Faq Section -->
 
-      </div>
-
-    </section><!-- /Faq Section -->
-
-    <!-- Recent Posts Section -->
-    <!-- <section id="recent-posts" class="recent-posts section"> -->
+      <!-- Recent Posts Section -->
+      <!-- <section id="recent-posts" class="recent-posts section"> -->
 
       <!-- Section Title -->
       <!-- <div class="container section-title" data-aos="fade-up">
@@ -857,7 +1174,7 @@
             </article>
           </div>End post list item -->
 
-          <!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+      <!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <article>
 
               <div class="post-img">
@@ -883,7 +1200,7 @@
             </article>
           </div><!-- End post list item -->
 
-          <!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+      <!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <article>
 
               <div class="post-img">
@@ -907,188 +1224,251 @@
               </div>
 
             </article>
-          </div>End post list item --> -->
+          </div>End post list item -->
+      -->
 
-        <!-- </div>End recent posts list -->
+      <!-- </div>End recent posts list -->
 
       <!-- </div>
 
     </section> -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gx-lg-0 gy-4">
-
-          <div class="col-lg-4  ">
-            <div class="info-container d-flex flex-column align-items-center justify-content-center contactleft">
-              <div class="info-item d-flex " data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gx-lg-0 gy-4">
+            <div class="col-lg-4">
+              <div
+                class="info-container d-flex flex-column align-items-center justify-content-center contactleft"
+              >
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                  </div>
                 </div>
-              </div><!-- End Info Item -->
+                <!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                  </div>
                 </div>
-              </div><!-- End Info Item -->
+                <!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>info@example.com</p>
+                  </div>
                 </div>
-              </div><!-- End Info Item -->
+                <!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-                <i class="bi bi-clock flex-shrink-0"></i>
-                <div>
-                  <h3>Open Hours:</h3>
-                  <p>Mon-Sat: 11AM - 23PM</p>
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  <i class="bi bi-clock flex-shrink-0"></i>
+                  <div>
+                    <h3>Open Hours:</h3>
+                    <p>Mon-Sat: 11AM - 23PM</p>
+                  </div>
                 </div>
-              </div><!-- End Info Item -->
-
+                <!-- End Info Item -->
+              </div>
             </div>
 
+            <div class="col-lg-8">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade"
+                data-aos-delay="100"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="8"
+                      placeholder="Message"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer accent-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Specfits</span>
+            </a>
+            <p>
+              Whether you're looking for a custom-designed outfit for a special
+              occasion, a chic ready-to-wear piece for everyday glamour, or
+              accessories that make a statement, our collections are created
+              with precision and a touch of boldness.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade" data-aos-delay="100">
-              <div class="row gy-4">
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Tailor-Made Fashion</a></li>
+              <li><a href="#">Customized Curtains</a></li>
+              <li><a href="#">Events Decoration</a></li>
+              <li><a href="#">High-Quality Bed Nets</a></li>
+              <li><a href="#">Expert-Led Courses</a></li>
+            </ul>
+          </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="8" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer accent-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Specfits</span>
-          </a>
-          <p>Whether you're looking for a custom-designed outfit for a special occasion, a chic ready-to-wear piece for everyday glamour, or accessories that make a statement, our collections are created with precision and a touch of boldness.</p>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contact Us</h4>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p>United States</p>
+            <p class="mt-4">
+              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+            </p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
         </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Tailor-Made Fashion</a></li>
-            <li><a href="#">Customized Curtains</a></li>
-            <li><a href="#">Events Decoration</a></li>
-            <li><a href="#">High-Quality Bed Nets</a></li>
-            <li><a href="#">Expert-Led Courses</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
-        </div>
-
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Specfits</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Specfits</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
