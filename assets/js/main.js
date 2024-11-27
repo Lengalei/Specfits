@@ -7,7 +7,7 @@
  */
 
 (function () {
-  "use strict";
+  ("use strict");
 
   /**
    * Apply .scrolled class to the body as the page is scrolled down
@@ -144,44 +144,25 @@
   /**
    * Init isotope layout and filters
    */
-  document.querySelectorAll(".isotope-layout").forEach(function (isotopeItem) {
-    let layout = isotopeItem.getAttribute("data-layout") ?? "masonry";
-    let filter = isotopeItem.getAttribute("data-default-filter") ?? "*";
-    let sort = isotopeItem.getAttribute("data-sort") ?? "original-order";
+  // Initialize Isotope
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const galleryItems = document.querySelectorAll(".gallery-item");
 
-    let initIsotope;
-    imagesLoaded(isotopeItem.querySelector(".isotope-container"), function () {
-      initIsotope = new Isotope(
-        isotopeItem.querySelector(".isotope-container"),
-        {
-          itemSelector: ".isotope-item",
-          layoutMode: layout,
-          filter: filter,
-          sortBy: sort,
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      // Remove active class from all buttons
+      filterButtons.forEach((btn) => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      const filter = button.getAttribute("data-filter");
+      galleryItems.forEach((item) => {
+        if (filter === "*" || item.classList.contains(filter.slice(1))) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
         }
-      );
-    });
-
-    isotopeItem
-      .querySelectorAll(".isotope-filters li")
-      .forEach(function (filters) {
-        filters.addEventListener(
-          "click",
-          function () {
-            isotopeItem
-              .querySelector(".isotope-filters .filter-active")
-              .classList.remove("filter-active");
-            this.classList.add("filter-active");
-            initIsotope.arrange({
-              filter: this.getAttribute("data-filter"),
-            });
-            if (typeof aosInit === "function") {
-              aosInit();
-            }
-          },
-          false
-        );
       });
+    });
   });
 
   /**
@@ -261,5 +242,31 @@ document.addEventListener("DOMContentLoaded", () => {
   leftArrow.addEventListener("click", () => {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
     updateSlider();
+  });
+});
+
+// swiper
+document.addEventListener("DOMContentLoaded", () => {
+  const swiper = new Swiper(".testimonials-slider", {
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    slidesPerView: 1,
+    spaceBetween: 20,
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1200: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+    },
   });
 });
