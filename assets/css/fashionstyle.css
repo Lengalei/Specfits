@@ -97,21 +97,34 @@ body a {
 .advertisement {
   text-align: center;
   padding: 50px 20px;
-  background: #f9f9f9;
+  background: #0e2229;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advertisement .content {
+  width: 70%;
+  height: auto;
+  padding: 40px;
+  background-color: #15202b;
+  border-radius: 10px;
 }
 
 /* Gallery Section */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
   gap: 20px;
   margin: 40px 0;
+  padding: 40px;
 }
 .gallery-item {
   position: relative;
 }
 .gallery-item img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s;
 }
@@ -133,22 +146,11 @@ body a {
   opacity: 1;
 }
 
-/* Testimonials Section */
-.testimonials {
-  padding: 50px 20px;
-  text-align: center;
-  background: #fff;
-}
-.testimonials .testimonial {
-  margin-bottom: 20px;
-  animation: fade-in 1s ease-out;
-}
-
 /* Newsletter Section */
 .newsletter {
   padding: 50px 20px;
   text-align: center;
-  background: #f4f4f4;
+  background: #1e1e2a;
 }
 .newsletter input {
   padding: 10px;

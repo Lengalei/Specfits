@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Gallery Page</title>
     <link rel="stylesheet" href="./assets/css/fashionstyle.css" />
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
     <!-- Favicons -->
     <link href="assets/img/specfitslogo.png" rel="icon" />
@@ -17,6 +18,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     />
     <link
       rel="stylesheet"
@@ -38,7 +43,19 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Specfits
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
   </head>
+
   <body>
     <header id="header" class="header fixed-top">
       <!-- <div class="topbar d-flex align-items-center">
@@ -62,12 +79,38 @@
         >
           <a href="index.html" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/specfitslogo.png" alt="logo" /> -->
+            <img src="assets/img/specfitslogo.png" alt="logo" />
+            <h3>Specfit Designs</h3>
           </a>
 
           <nav id="navmenu" class="navmenu">
             <ul>
-              <a href="index.html"><h4>BACK HOME</h4></a>
+              <li>
+                <a href="#hero" class="active">Home<br /></a>
+              </li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Our Samples</a></li>
+              <!-- <li><a href="#team">Team</a></li> -->
+
+              <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul> -->
+              <!-- <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li> -->
+              <li><a href="#contact">Contact Us</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
@@ -87,6 +130,7 @@
     <section class="advertisement">
       <div class="content animate-fade">
         <h2>Experience Elegance Like Never Before</h2>
+        <hr class="hr" />
         <p>
           Our gallery features a handpicked collection of stylish designs and
           unique creations tailored to inspire and captivate. Immerse yourself
@@ -131,28 +175,6 @@
       </div>
     </section>
 
-    <!-- New Testimonials Section -->
-    <section class="testimonials">
-      <div class="heading">
-        <h2>What Our Customers Say</h2>
-        <hr class="hr" />
-      </div>
-      <div class="testimonial-carousel">
-        <div class="testimonial">
-          <p>
-            "Absolutely stunning designs! The attention to detail is
-            incredible."
-          </p>
-          <span>- Jane Doe</span>
-        </div>
-        <div class="testimonial">
-          <p>"I found the perfect outfit for my event. Highly recommended!"</p>
-          <span>- John Smith</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Newsletter Section -->
     <section class="newsletter">
       <div class="content">
         <h2>Stay Updated</h2>
@@ -165,6 +187,131 @@
         </form>
       </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Contact Us</h2>
+        <hr class="hr" />
+        <p></p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gx-lg-0 gy-4">
+          <div class="col-lg-4">
+            <div
+              class="info-container d-flex flex-column align-items-center justify-content-center contactleft"
+            >
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-clock flex-shrink-0"></i>
+                <div>
+                  <h3>Open Hours:</h3>
+                  <p>Mon-Sat: 11AM - 23PM</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <form
+              action="forms/contact.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Your Email"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    placeholder="Subject"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="8"
+                    placeholder="Message"
+                    required=""
+                  ></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- End Contact Form -->
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
+
+    <!-- Floating WhatsApp Icon -->
+    <a href="https://wa.me/254791963398" target="_blank" class="whatsapp-float">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- floating whatsapp ends -->
 
     <footer id="footer" class="footer accent-background">
       <div class="container footer-top">
@@ -236,6 +383,21 @@
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
   </body>
 </html>
