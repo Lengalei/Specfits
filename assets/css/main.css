@@ -2460,6 +2460,13 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../img/contactbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .contact .info-container {
   background-color: var(--accent-color);
   color: white;
@@ -2547,7 +2554,7 @@ section,
 
 .contact .php-email-form button[type="submit"] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #01433c;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -3615,8 +3622,6 @@ section,
   object-fit: cover;
 }
 .contact .contactleft {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/contactus34.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
