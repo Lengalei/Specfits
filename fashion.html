@@ -77,14 +77,15 @@
     <!-- Hero Section -->
     <section class="hero-section">
       <div class="container">
-        <h1>Explore Our Exquisite Gallery</h1>
-        <p>Where Style Meets Art</p>
+        <h1 class="animate-slide">Explore Our Exquisite Gallery</h1>
+        <p class="animate-fade">Where Style Meets Art</p>
+        <a href="#gallery" class="btn animate-pop">View Collection</a>
       </div>
     </section>
 
     <!-- Advertisement Section -->
     <section class="advertisement">
-      <div class="content">
+      <div class="content animate-fade">
         <h2>Experience Elegance Like Never Before</h2>
         <p>
           Our gallery features a handpicked collection of stylish designs and
@@ -96,60 +97,56 @@
     </section>
 
     <!-- Gallery Section -->
-    <section class="gallery-section">
+    <section id="gallery" class="gallery-section">
       <div class="heading">
-        <h2>Our Collection</h2>
+        <h2 class="animate-slide">Our Collection</h2>
         <hr class="hr" />
       </div>
       <div class="gallery">
         <div class="gallery-item">
           <img src="./assets/img/dress10.jpg" alt="Gallery Image 1" />
-          <!-- <div class="overlay">
-            <p>Elegant Gown</p>
-          </div> -->
+          <div class="overlay">Elegant Gown</div>
         </div>
         <div class="gallery-item">
-          <img src="./assets/img/client25.jpg" alt="Gallery Image 2" />
-          <!-- <div class="overlay">
-            <p>Casual Jacket</p>
-          </div> -->
+          <img src="./assets/img/client5.jpg" alt="Gallery Image 2" />
+          <div class="overlay">Casual Jacket</div>
         </div>
-        <div class="gallery-item">
-          <img src="./assets/img/client25.jpg" alt="Gallery Image 3" />
-          <!-- <div class="overlay">
-            <p>Wedding Blazer</p>
-          </div> -->
+        <!-- Repeat for other items -->
+      </div>
+    </section>
+
+    <!-- New Testimonials Section -->
+    <section class="testimonials">
+      <div class="heading">
+        <h2>What Our Customers Say</h2>
+        <hr class="hr" />
+      </div>
+      <div class="testimonial-carousel">
+        <div class="testimonial">
+          <p>
+            "Absolutely stunning designs! The attention to detail is
+            incredible."
+          </p>
+          <span>- Jane Doe</span>
         </div>
-        <div class="gallery-item">
-          <img src="./assets/img/client25.jpg" alt="Gallery Image 4" />
-          <!-- <div class="overlay">
-            <p>Classic Coat</p>
-          </div> -->
+        <div class="testimonial">
+          <p>"I found the perfect outfit for my event. Highly recommended!"</p>
+          <span>- John Smith</span>
         </div>
-        <div class="gallery-item">
-          <img src="./assets/img/client25.jpg" alt="Gallery Image 5" />
-          <!-- <div class="overlay">
-            <p>Summer Dress</p>
-          </div> -->
-        </div>
-        <div class="gallery-item">
-          <img src="./assets/img/client25.jpg" alt="Gallery Image 6" />
-          <!-- <div class="overlay">
-            <p>Luxury Suit</p>
-          </div> -->
-        </div>
-        <div class="gallery-item">
-          <img src="./assets/img/client25.jpg" alt="Gallery Image 6" />
-          <!-- <div class="overlay">
-            <p>Luxury Suit</p>
-          </div> -->
-        </div>
-        <div class="gallery-item">
-          <img src="./assets/img/client25.jpg" alt="Gallery Image 6" />
-          <!-- <div class="overlay">
-            <p>Luxury Suit</p>
-          </div> -->
-        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="content">
+        <h2>Stay Updated</h2>
+        <p>
+          Subscribe to our newsletter to receive the latest updates and offers.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
       </div>
     </section>
 
