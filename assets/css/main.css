@@ -1448,7 +1448,7 @@ section,
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -1881,7 +1881,23 @@ section,
   border-radius: 10px;
   height: 100%;
 }
-
+.services .section-title {
+  display: flex;
+  flex-direction: column;
+}
+.Stitle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Stitle .hr {
+  width: 30%;
+  height: 5px;
+  background-color: #3c067d;
+  border: none;
+}
 .services .service-item .icon {
   width: 48px;
   height: 48px;
