@@ -3650,7 +3650,7 @@ section,
 }
 
 .tcard {
-  background-color: #fff;
+  background-color: #15202b;
   border-radius: 12px;
   overflow: hidden;
   width: 30%;
@@ -3671,7 +3671,8 @@ section,
 }
 
 .beginner-class {
-  background-image: url("../img/training1.jpg");
+  background-image: linear-gradient(rgba(10, 9, 9, 0.4), rgba(20, 1, 1, 0.3)),
+    url("../img/training1.jpg");
 }
 
 .intermediate-class {
@@ -3688,13 +3689,14 @@ section,
 
 .tcard h3 {
   font-size: 1.8rem;
-  color: #1b013a;
+  font-weight: 800;
+  color: #9672c2;
   margin-bottom: 10px;
 }
 
 .tcard p {
   font-size: 1rem;
-  color: #555;
+  color: #f0f0f0;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -3702,11 +3704,12 @@ section,
 .btn {
   display: inline-block;
   padding: 12px 25px;
-  background-color: #1b013a;
+  background-color: #0e2229;
   color: #fff;
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 1px;
+  border: 2px solid #3c067d;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease;
