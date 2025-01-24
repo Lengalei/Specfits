@@ -3647,6 +3647,7 @@ section,
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .tcard {
@@ -3717,6 +3718,49 @@ section,
 
 .btn:hover {
   background-color: #3c067d;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .tcard {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .trainingsection-title {
+    font-size: 2.5rem;
+  }
+
+  .tsection-description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .tcard {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trainingsection-title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .tsection-description {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 8px 18px;
+  }
 }
 
 /* faq */
