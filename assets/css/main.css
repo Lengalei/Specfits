@@ -2148,66 +2148,132 @@ section,
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
-.team .member {
-  background-color: var(--surface-color);
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+.team.section {
+  padding: 50px 20px;
+  background: #0e2229;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
   text-align: center;
-  border-radius: 15px;
-  padding: 15px;
-  overflow: hidden;
-}
-
-.team .member img {
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.team .member .member-content {
-  padding: 0 20px 30px 20px;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-top: 16px;
-  margin-bottom: 2px;
-  font-size: 20px;
-}
-
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.team .member .social {
-  margin-top: 15px;
   margin-bottom: 10px;
+}
+
+.section-title .subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+}
+
+.main-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 30px;
+  margin-top: 30px;
 }
 
-.team .member .social a {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-  transition: 0.3s;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 60%);
+.ceo-image {
+  width: 350px;
+  height: 430px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
-.team .member .social a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+.ceo-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
+.ceo-content {
+  flex: 1;
+}
+
+.ceo-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.ceo-title {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.ceo-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.ceo-highlights h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ceo-highlights ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .ceo-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .ceo-content {
+    margin-top: 20px;
+  }
+
+  .ceo-name {
+    font-size: 1.5rem;
+  }
+
+  .ceo-title {
+    font-size: 1rem;
+  }
+
+  .ceo-description {
+    font-size: 0.9rem;
+  }
+
+  .ceo-highlights h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .section-title .subtitle {
+    font-size: 1rem;
+  }
+
+  .ceo-description {
+    font-size: 0.85rem;
+  }
+
+  .ceo-highlights h5 {
+    font-size: 0.9rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -3499,12 +3565,12 @@ section,
   background-repeat: no-repeat;
 } */
 
-.team {
+/* .team {
   background-image: linear-gradient(rgba(5, 0, 0, 0.3), rgba(12, 12, 12, 0.4)),
     url("../img/silkbg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .mainContainer {
   width: 100%;
@@ -3544,8 +3610,8 @@ section,
 }
 
 .training-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../img/furbg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../img/footerbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0;
