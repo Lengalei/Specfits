@@ -3677,11 +3677,13 @@ section,
 }
 
 .intermediate-class {
-  background-image: url("../img/train2.jpg");
+  background-image: linear-gradient(rgba(10, 9, 9, 0.4), rgba(20, 1, 1, 0.3)),
+    url("../img/train2.jpg");
 }
 
 .advanced-class {
-  background-image: url("../img/training4.jpg");
+  background-image: linear-gradient(rgba(10, 9, 9, 0.4), rgba(20, 1, 1, 0.3)),
+    url("../img/traing3.jpg");
 }
 
 .tcard-content {
